@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "pattern":
+      [
+         "1",
+        "2"		
+      ],
+      "key":
+      {
+          "1":
+          {
+             "item": "minecraft:grass"
+          },
+          "2":
+          {
+             "item": "minecraft:dirt"
+          }
+          
+      },   
+    "result":
+     {
+        "item": "minecraft:grass_block"
+     }
+ }

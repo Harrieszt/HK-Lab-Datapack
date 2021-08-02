@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "xxx",
+        "xzx",
+        "xxx"
+    ],
+    "key": {
+        "z": {
+            "item": "minecraft:cobblestone"
+        },
+        "x": {
+            "item": "minecraft:flint"
+        }
+    },
+    "result": {
+        "item": "minecraft:gravel",
+        "count": 8
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "xzx",
+        "zyz",
+        "xzx"
+    ],
+    "key": {
+        "x": {
+            "item": "minecraft:gold_block"
+        },
+        "y": {
+            "item": "minecraft:respawn_anchor"
+        },
+        "z": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "minecraft:totem_of_undying",
+        "count": 1
+    }
+}

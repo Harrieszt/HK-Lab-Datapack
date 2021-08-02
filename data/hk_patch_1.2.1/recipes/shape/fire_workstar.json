@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " x ",
+        "xzx",
+        " x "
+    ],
+    "key": {
+        "x": {
+            "item": "minecraft:paper"
+        },
+        "z": {
+            "item": "minecraft:gunpowder"
+        }
+    },
+    "result": {
+        "item": "minecraft:firework_star"
+    }
+}

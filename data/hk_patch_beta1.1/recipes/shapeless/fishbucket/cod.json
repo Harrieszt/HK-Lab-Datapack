@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item":"minecraft:bucket"
+        },
+        {
+            "item":"minecraft:cod"
+        }
+    ],
+    "result":
+    {
+        "item":"minecraft:cod_bucket"
+    }
+}

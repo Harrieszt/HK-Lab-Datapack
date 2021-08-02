@@ -1,0 +1,22 @@
+{
+	"type": "crafting_shaped",
+	"pattern": [
+		"212",
+		"212",
+		"212"
+	],
+	"key": {
+		"1": {
+			"item": "minecraft:gold_ingot"
+		},
+		"2": {
+			"item": "minecraft:redstone"
+		}
+	},
+
+
+	"result": {
+		"item": "minecraft:blaze_rod",
+		"count": 3
+	}
+}

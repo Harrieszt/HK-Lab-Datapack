@@ -1,0 +1,16 @@
+{
+    "type":"minecraft:crafting_shapeless",
+    "ingredients":
+    [
+        {
+            "item":"minecraft:bucket"
+        },
+        {
+            "item":"minecraft:tropical_fish"
+        }
+    ],
+    "result":
+    {
+        "item":"minecraft:tropical_fish_bucket"
+    }
+}
