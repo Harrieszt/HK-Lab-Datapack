@@ -1,0 +1,19 @@
+{
+    "values": [
+        "minecraft:string",
+        "minecraft:bone",
+        "minecraft:rotten_flesh",
+        "minecraft:gunpowder",
+        "minecraft:blaze_rod",
+        "minecraft:blaze_powder",
+        "minecraft:ender_pearl",
+        "minecraft:prismarine_crystals",
+        "minecraft:prismarine_shard",
+        "minecraft:magma_cream",
+        "minecraft:phantom_membrane",
+        "minecraft:arrow",
+        "minecraft:slime_ball",
+        "minecraft:spider_eye",
+        "minecraft:tipped_arrow"
+    ]
+}

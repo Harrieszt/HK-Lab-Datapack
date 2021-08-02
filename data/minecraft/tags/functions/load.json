@@ -1,0 +1,9 @@
+{
+    "values": [
+        "nbtcrafting:load",
+        "scoreboard:deathcount",
+        "scoreboard:health",
+        "hk_laboratories:antman_suit/scoreboard_ant",
+        "hk_laboratories:tag_ant/tag_player1"
+    ]
+}

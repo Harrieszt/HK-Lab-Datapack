@@ -1,0 +1,24 @@
+{
+    "values": [
+        "nbtcrafting:tick",
+
+        "nbtcrafting:arrow_explode/explosion_arrow",
+        "nbtcrafting:arrow_explode/explosion",
+        "nbtcrafting:arrow_explode/kill_arrow",
+        "nbtcrafting:arrow_explode/tag_simple",
+
+        "special_item:flame_coal",
+        "special_item:invisible_bomb",
+
+        "thinkertable:detector_thinker",
+        "assembly_table:asbt_engine/asbt_dectector",
+        "assembly_table:asbt_engine/capsule_check",
+
+        "auto_compactor:compactor_engine/cpt_dectector",
+        "auto_compactor:compactor_engine/cpt_remove",
+
+        "hk_laboratories:lab_detect",
+
+        "hk_laboratories:antman_suit/engine_suit"
+    ]
+}
