@@ -1,0 +1,1 @@
+kill @e[type=minecraft:armor_stand,nbt={Invisible:1b,Tags: ["M1"]}]
