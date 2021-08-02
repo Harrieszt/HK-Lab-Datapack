@@ -1,0 +1,1 @@
+execute at @e[tag=arrowExplode,nbt={inGround:1b}] run summon minecraft:tnt

@@ -1,0 +1,1 @@
+give @s minecraft:bow{Unbreakable:1b,display:{Name:"\"TNT Launcher\""},Enchantments:[{id:"minecraft:power",lvl:10},{id:"minecraft:mending",lvl:1}]} 1

@@ -1,0 +1,1 @@
+kill @e[tag=arrowExplode,nbt={inGround:1b}]

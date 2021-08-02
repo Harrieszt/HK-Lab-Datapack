@@ -1,0 +1,1 @@
+tag @e[type=minecraft:arrow,tag=!arrowExplode] add simpleArrow

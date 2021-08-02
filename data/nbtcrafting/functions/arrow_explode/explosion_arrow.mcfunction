@@ -1,0 +1,1 @@
+execute at @a[nbt={SelectedItem:{id:"minecraft:bow",tag:{Unbreakable:1b,display:{Name:"\"TNT Launcher\""},Enchantments:[{id:"minecraft:power",lvl:10}]}}}] run tag @e[type=minecraft:arrow,distance=..4,tag=!simpleArrow,nbt={life:0s,inGround:0b}] add arrowExplode
