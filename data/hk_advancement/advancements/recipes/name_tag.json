@@ -1,0 +1,20 @@
+{
+    "parent": "hk_advancement:crafting",
+    "criteria": {
+        "has_material": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:sign"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "hk_patch_beta1.1:shapeless/name_tag"
+        ]
+    }
+}

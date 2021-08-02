@@ -1,0 +1,21 @@
+{
+    "parent": "hk_advancement:crafting",
+    "criteria": {
+        "has_material": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gunpowder"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "hk_patch_beta.fix_v1.1.1:shapeless/gunpowder",
+            "hk_patch_1.2.1:shape/fire_workstar"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "parent": "hk_advancement:crafting",
+  "criteria": {
+    "has_material": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:chain"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [ 
+      "hk_patch_1.3.1:shape/chainmail_helmet", 
+      "hk_patch_1.3.1:shape/chainmail_chestplate",
+      "hk_patch_1.3.1:shape/chainmail_plant",
+      "hk_patch_1.3.1:shape/chainmail_boot"
+    ]
+  }
+}

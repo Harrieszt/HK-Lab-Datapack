@@ -1,0 +1,20 @@
+{
+    "parent": "hk_advancement:crafting",
+    "criteria": {
+        "has_material_a":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:lava_bucket"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "hk_patch_1.3.1:shapelss/cobblesstone"
+        ]
+    }
+}

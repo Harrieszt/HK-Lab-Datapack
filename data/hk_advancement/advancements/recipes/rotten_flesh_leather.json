@@ -1,0 +1,16 @@
+{
+    "parent": "hk_advancement:crafting",
+    "criteria": {
+        "has_material": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:furnace"
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "hk_patch_beta.fix_v1.1.1:smelt/rotten_flesh_leather"
+        ]
+    }
+}

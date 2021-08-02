@@ -1,0 +1,81 @@
+{
+    "display": {
+        "title": {
+            "text": "Sea Emperor",
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Craft trident",
+            "color": "lime",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "icon": {
+            "item": "minecraft:trident"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/blackstone.png"
+    },
+    "parent": "hk_advancement:crafting",
+    "criteria": {
+        "has_conditions":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:diamond"
+                    },
+                    {
+                        "item": "minecraft:iron_sword"
+                    },
+                    {
+                        "item": "minecraft:prismarine_shard"
+                    },
+                    {
+                        "item": "minecraft:iron_ingot"
+                    }
+                ]
+            }
+        },
+        "has_recipes":{
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hk_patch_beta.fix_v1.1.1:shape/trident"
+            }
+        },
+        "has_trident":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:trident"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_conditions"
+        ],
+        [
+            "has_recipes"
+        ],
+        [
+            "has_trident"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

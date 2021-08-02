@@ -1,0 +1,93 @@
+{
+    "parent": "hk_advancement:recipes/enchanted_golden_apple/golden_apple",
+    "display": {
+        "title": {"text": "Perfect apple",
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "Ultimate evolution of apple",
+            "color": "dark_purple",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "icon": {
+            "item": "minecraft:enchanted_golden_apple"
+        },
+        "announce_to_chat": true,
+        "frame": "goal",
+        "hidden": false
+    },
+    "criteria": {
+        "has_material_a": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:golden_apple"
+                    }
+                ]
+            }
+        },
+        "has_material_b": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:gold_block"
+                    }
+                ]
+            }
+        },
+        "has_material_c": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:enchanted_golden_apple"
+                    }
+                ]
+            }
+        },
+        "has_ate":{
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "item": "minecraft:enchanted_golden_apple"
+                }
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hk_patch_beta1.1:shape/enchanted_golden_apple"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_material_a"
+        ],
+        [
+            "has_material_b"
+        ],
+        [
+            "has_material_c"
+        ],
+        [
+            "has_ate"
+        ],
+        [
+            "has_recipe"
+        ]
+    ],
+    "rewards": {
+        "experience": 100
+    }
+}

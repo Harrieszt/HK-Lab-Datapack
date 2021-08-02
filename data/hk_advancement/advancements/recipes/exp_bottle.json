@@ -1,0 +1,36 @@
+{
+    "parent": "hk_advancement:crafting",
+    "criteria": {
+        "has_material_a": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:mob_drop"
+                    }
+                ]
+            }
+        },
+        "has_material_b": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:glass_bottle"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_material_a",
+            "has_material_b"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "hk_patch_2.1.1:shape/exp_bottle"
+        ]
+    }
+}

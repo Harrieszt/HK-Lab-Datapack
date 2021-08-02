@@ -1,0 +1,19 @@
+{
+  "parent": "hk_advancement:crafting",
+  "criteria": {
+    "place_block": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:blast_furnace"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "hk_patch_1.2.1:smelt/cobble_stone_blast",
+      "hk_patch_1.2.1:smelt/netherrack_blast",
+      "hk_patch_1.2.1:smelt/sand_blast",
+      "hk_patch_1.2.1:smelt/stone_smoothstone_blast"
+    ]
+  }
+}

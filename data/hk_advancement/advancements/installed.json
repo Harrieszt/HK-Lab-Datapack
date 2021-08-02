@@ -1,0 +1,37 @@
+{
+    "display": {
+        "title": {
+            "text": "HK Advancement",
+            "color": "gold",
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": true
+        },
+        "description": {
+            "text": "HK Datapack installed complete!",
+            "color": "dark_purple",
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:_SPACE_Ronin}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/block/blackstone.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+
+}

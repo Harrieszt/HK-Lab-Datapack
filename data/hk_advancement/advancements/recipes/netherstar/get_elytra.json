@@ -1,0 +1,56 @@
+{
+    "parent": "hk_advancement:recipes/netherstar/get_nether_star",
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": {"text": "Let's fly",
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {"text": "Elytra recipe is available now",
+            "color": "dark_purple",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "has_item": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:elytra"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "hk_patch_beta.fix_v1.1.1:shape/elytra"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_item"
+        ],
+        [
+            "has_recipe"
+        ]
+    ],
+    "rewards": {
+        "experience": 10
+    }
+}

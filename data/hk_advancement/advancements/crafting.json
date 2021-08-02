@@ -1,0 +1,36 @@
+{
+    "display": {
+        "title": {"text": "New crafting recipes",
+            "color": "yellow",
+            "bold": true,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "description": {
+            "text": "New recipes from datapack is available now",
+            "color": "lime",
+            "bold": false,
+            "italic": false,
+            "underlined": false,
+            "strikethrough": false,
+            "obfuscated": false
+        },
+        "icon": {
+            "item": "minecraft:crafting_table"
+        },
+        "announce_to_chat": true,
+        "frame": "task",
+        "hidden": true
+    },
+    "criteria": {
+        "how to unlock" : {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:crafting_table"
+            }
+        }
+    },
+    "parent": "hk_advancement:installed"
+}
