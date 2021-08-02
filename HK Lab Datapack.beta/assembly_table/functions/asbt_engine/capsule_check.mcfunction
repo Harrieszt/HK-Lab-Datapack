@@ -1,0 +1,1 @@
+function assembly_table:instant_habitat/detect_c1
