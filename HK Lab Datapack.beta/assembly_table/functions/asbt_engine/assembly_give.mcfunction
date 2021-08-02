@@ -1,1 +1,0 @@
-give @s iron_nugget{Enchantments:[{id:"mending",lvl:1}],CustomModelData:2002,display:{Lore:['{"text":"Drop this block on ground and leave at least 3 blocks","italic":false,"color":"gold"}','{"text":"from this block to place it","italic":false,"color":"gold"}'],Name:'{"text":"Assenbly Table","color":"dark_aqua","italic":"false","bold": true}'},Assembly:1b,HideFlags:1}

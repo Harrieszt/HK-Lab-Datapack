@@ -1,1 +1,0 @@
-execute if block ~ ~ ~ air run kill @s
