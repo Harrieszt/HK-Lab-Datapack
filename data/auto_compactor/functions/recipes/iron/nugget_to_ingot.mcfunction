@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:iron_nugget",Count:9b}]} run function auto_compactor:recipes/iron/nugget

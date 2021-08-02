@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ dropper{Items:[{Slot:0b,id:"minecraft:gold_ingot",Count:9b}]} run function auto_compactor:recipes/gold/ingot
