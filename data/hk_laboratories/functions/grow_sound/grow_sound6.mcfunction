@@ -1,0 +1,1 @@
+playsound minecraft:block.piston.contract master @a ~ ~ ~ 0.5 2 0.5
