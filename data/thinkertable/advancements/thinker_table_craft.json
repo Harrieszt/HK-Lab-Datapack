@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:crafting_table",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": {
+            "text": "Advanced Crafting Table",
+            "bold": true
+        },
+        "description": {
+            "text": "A Thinker Table useful for complex crafting recipes!",
+            "color": "dark_purple"
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "frame": "goal"
+    },
+    "parent": "hk_advancement:recipes/netherstar/get_nether_star",
+    "criteria": {
+        "has_recipes": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "thinkertable:thinker_table"
+            }
+        }
+    },
+    "rewards": {
+        "experience": 100
+    }
+}

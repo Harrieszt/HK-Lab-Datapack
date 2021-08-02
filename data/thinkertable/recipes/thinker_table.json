@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "xyx",
+        "zaz",
+        "xzx"
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:nether_star"
+        },
+        "x": {
+            "item": "minecraft:diamond"
+        },
+        "y": {
+            "item": "minecraft:crafting_table"
+        },
+        "z": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "minecraft:command_block"
+    }
+}

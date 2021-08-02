@@ -1,0 +1,14 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "thinkertable:thinker_table"
+			}
+		}
+	},
+	"parent": "hk_advancement:crafting",
+	"rewards": {
+		"function": "thinkertable:thinker_recipes"
+	}
+}

@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ dropper{Items:[{Slot:1b,id:"minecraft:fire_charge",Count:1b},{Slot:4b,id:"minecraft:coal",Count:1b}]} run function thinkertable:flame_coal/flame_coal_done

@@ -1,0 +1,2 @@
+data merge block ~ ~ ~ {Items:[{Slot:4b,id:"minecraft:coal",Count:1b,tag:{display:{Name:'[{"text":"Flame Coal"}]'},Enchantments:[{lvl:1,id:"minecraft:flame"}]}}]}
+playsound minecraft:block.smithing_table.use master @a ~ ~ ~ 1 1

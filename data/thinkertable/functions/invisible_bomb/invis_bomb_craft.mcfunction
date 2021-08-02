@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ minecraft:dropper{Items: [{Slot: 4b, id: "minecraft:firework_star", Count:1b},{Slot:7b, id:"minecraft:potion",Count:1b, tag: {Potion: "minecraft:invisibility"}}]} run function thinkertable:invisible_bomb/invis_bomb_done

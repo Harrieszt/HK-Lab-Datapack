@@ -1,0 +1,5 @@
+data merge entity @e[type=item,nbt={Item:{id:"minecraft:dropper",Count:1b}},limit=1,distance=..3] {Item:{id:"iron_nugget",tag:{HideFlags:1,Enchantments:[{id:"mending",lvl:1}],ThinkTable:1b,CustomModelData:2001,display:{Name:'{"text":"Thinker Table","color":"dark_purple","italic":"false","bold": true}',Lore:['{"text":"Drop this block on ground and leave at least 3 blocks","italic":false,"color":"gold"}', '{"text":"from this block to place it","italic":false,"color":"gold"}']}}}}
+playsound block.respawn_anchor.deplete block @a[distance=..16] ~ ~ ~ 1 0.75
+kill @s
+
+                                                                                            #iron_nugget{Enchantments:[{id:"mending",lvl:1}],CustomModelData:2001,display:{Lore:['{"text":"Drop this block on ground and leave at least 3 blocks","italic":false,"color":"gold"}','{"text":"from this block to place it","italic":false,"color":"gold"}'],Name:'{"text":"Thinker Table","color":"dark_purple","italic":"false"}'},ThinkTable:1b,HideFlags:1}
